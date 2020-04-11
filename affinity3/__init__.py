@@ -37,7 +37,7 @@ if sys.platform.startswith('win32'):
             raise ValueError(e)
 
 elif sys.platform.startswith('linux'):
-    from _affinity import set_process_affinity_mask, get_process_affinity_mask
+    from _affinity3 import set_process_affinity_mask, get_process_affinity_mask
 
 else:
     def set_process_affinity_mask(pid, value):

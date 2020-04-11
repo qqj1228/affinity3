@@ -29,8 +29,8 @@ ext = []
 if sys.platform.startswith('linux'):
     ext.append(
         Extension(
-            name='affinity3._affinity',
-            sources=['affinity3/_affinity.c'],
+            name='affinity3._affinity3',
+            sources=['affinity3/_affinity3.c'],
         )
     )
 
